@@ -1,3 +1,6 @@
+	Model: 
+	Asus Vivobook S14 OLED
+	
 	Processor: 
 	AMD Ryzen™ AI 9 HX 370 (2.0GHz base, up to 5.1GHz, 12 cores) with AMD XDNA™ NPU (up to 50 TOPS).
 	
@@ -25,4 +28,4 @@
 	
 	Operating System: 
 	Windows 11 Home
-<img width="1745" height="712" alt="image" src="https://github.com/user-attachments/assets/93c63a25-36fd-4744-bafb-080fde280db4" />
+<img width="1745" height="712" alt="image" src="https://github.com/user-attachments/assets/7f1187d1-e64a-44d9-b06e-978e2e99f3cf" />

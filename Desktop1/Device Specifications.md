@@ -1,7 +1,6 @@
-Device Photos	Specification / Configuration
-Missing, as device the was gifted and no photos are currently available. 	
 
-    PSU: FSP HYDRO G 750 Power Supply, 750W, 80+ Gold, Modul; Thermaltake Smart Power Supply, 730W, 80+ Certification - SP-730P
+	Device Photos	Specification / Configuration
+	Missing, as device the was gifted and no photos are currently available. 	PSU: FSP HYDRO G 750 Power Supply, 750W, 80+ Gold, Modul; Thermaltake Smart Power Supply, 730W, 80+ Certification - SP-730P
 	Motherboard: GA-Z270-HD3P (Rev. 1.0); Asus PRIME Z270-A, socket 1151
 	CPU: i7 6700K; i7 7700K 
 	RAM:  TeamGroup Delta TUF Asus RGB 16GB
@@ -17,3 +16,4 @@ Missing, as device the was gifted and no photos are currently available.
 	Speakers: Dell A525 - Speaker system - for PC - 2.1-channel - 30 Watt (total)
 	
 	OS: Windows 8, Windows 8.1, Windows 10
+<img width="1564" height="340" alt="image" src="https://github.com/user-attachments/assets/78cffe1c-c0e1-441e-b266-3cc0cf65feb9" />

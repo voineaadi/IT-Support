@@ -1,9 +1,9 @@
 Device Photos	Specification / Configuration
 Missing, as device the was gifted and no photos are currently available. 	
 
+![Image](https://github.com/user-attachments/assets/1a8d1e6a-e217-41fb-9318-e7018ff2ffc3)
 
-
-  PSU: FSP HYDRO G 750 Power Supply, 750W, 80+ Gold, Modul; Thermaltake Smart Power Supply, 730W, 80+ Certification - SP-730P
+    PSU: FSP HYDRO G 750 Power Supply, 750W, 80+ Gold, Modul; Thermaltake Smart Power Supply, 730W, 80+ Certification - SP-730P
 	Motherboard: GA-Z270-HD3P (Rev. 1.0); Asus PRIME Z270-A, socket 1151
 	CPU: i7 6700K; i7 7700K 
 	RAM:  TeamGroup Delta TUF Asus RGB 16GB

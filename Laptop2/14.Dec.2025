@@ -1,0 +1,89 @@
+Ticket ID: SEC-DEV-2025-10-LAPTOPII-AWCC
+Title: Alienware Laptop II — AWCC 6 Recovery, Dependency Repair & Thermal Management Restoration
+Classification: Endpoint Software Remediation / Vendor Platform Stability / Performance & Thermal Management
+Status: Resolved – Stable Configuration
+Priority: High
+Affected Asset: Laptop II (Alienware Gaming Laptop)
+Related Tickets:  SYS-VAL-2026-02-AWX17R1-II, SEC-DEV-2025-10-LAPTOPII-CLEANOS, SEC-DEV-2025-09-LAPTOPII
+
+Executive Summary
+After a Windows 11 feature update and routine driver maintenance, Alienware Command Center (AWCC) became unstable, causing partial loss of thermal, performance, and telemetry management.
+Root causes included:
+	• Windows servicing stack changes
+	• Driver dependency mismatches
+	• Residual legacy AWCC components
+	• GPU driver telemetry conflicts
+	• Missing/outdated Microsoft runtime dependencies (.NET Framework & Visual C++)
+Resolution involved full removal of legacy AWCC components, driver cleanup using DDU, OS component repair, runtime dependency restoration, and clean installation of AWCC 6. System now operates with full stability, restored thermal/fan management, and predictable high-performance operation.
+
+Environment
+	• Device: Laptop II (Alienware Gaming Laptop)
+	• Operating System: Windows 11 (Latest Version)
+	• Vendor Software: Alienware Command Center (AWCC 6)
+	• Vendor: Dell (Alienware)
+	• GPU Vendor: NVIDIA
+	• Location: Romania
+	• Usage Profile: Gaming / High-performance workloads / Thermal-sensitive applications
+
+Business Impact
+	• Severity: High
+	• Impacts:
+		○ Loss of fan/thermal profile control
+		○ Missing overclocking profile functionality
+		○ Reduced temperature telemetry
+		○ Risk of thermal throttling and performance instability
+	• Operational Risks:
+		○ Hardware overheating
+		○ Reduced gaming performance stability
+		○ System unpredictability under sustained load
+
+Root Cause Analysis
+	1. Windows Update Component Changes – Updated system components used by AWCC (WMI, runtime, hardware abstraction).
+	2. Legacy AWCC Component Residue – Leftover files and registry entries causing driver/service conflicts.
+	3. GPU Driver Telemetry Disruption – Required for temperature, performance, and overclocking monitoring; corrupted drivers caused failure.
+	4. Runtime Dependency Issues – Outdated or missing Microsoft Visual C++ Redistributables and .NET Framework.
+	5. Audio Stack Conflicts – Dolby components interfering with AWCC integration.
+
+Remediation Steps
+Phase 1 — AWCC Removal & Cleanup
+	• Removed AWCC 6 using IObit Uninstaller
+	• Cleared residual folders and registry entries
+	• Verified service removal via services.msc
+Phase 2 — Version Compatibility Testing
+	• Installed AWCC 5 → partial functionality, incompatible
+	• Fully removed AWCC 5
+Phase 3 — Windows Component Repair
+	• Reinstalled Windows Update servicing stack
+	• Installed latest .NET Framework updates
+Phase 4 — Runtime Dependency Repair
+	• Installed/repair Visual C++ 2015–2022 Redistributables (x64 & x86)
+Phase 5 — GPU Driver Cleanup
+	• Removed NVIDIA drivers via DDU in Safe Mode
+	• Installed OEM-validated GPU drivers via NVCleanstall
+Phase 6 — Conflicting Audio Component Removal
+	• Removed all Dolby-related software and services
+Phase 7 — Clean AWCC 6 Installation
+	• Installed AWCC 6 primary & supporting packages in correct sequence
+	• Verified all services running: AWCCService, Alienware Client Management Service, Alienware Monitoring Service
+
+Validation & Testing
+	• AWCC launch successful, no crashes
+	• Thermal management fully functional (fan curves, temperature monitoring)
+	• Performance profiles and overclocking restored
+	• Gaming validated: stable FPS, stable thermals, no throttling
+	• Startup validation: AWCC auto-load verified
+
+Final System State
+	• Status: Fully operational
+	• Restored Functionality: Fan control, thermal profiles, overclocking, telemetry, performance modes, audio integration
+	• Performance Improvements: Improved thermal stability, FPS consistency, system predictability
+
+Preventive Recommendations
+	• Use only AWCC 6 or newer
+	• Install drivers only from Dell/official sources
+	• Maintain runtime dependencies (.NET Framework, Visual C++)
+	• Avoid conflicting third-party audio software
+	• Create restore points before major OS, driver, or vendor updates
+
+Conclusion
+AWCC instability was resolved by addressing legacy software residue, runtime dependencies, GPU driver telemetry, and Windows servicing stack inconsistencies. Laptop II now operates under a stable, fully functional Alienware management environment with restored thermal and performance control.

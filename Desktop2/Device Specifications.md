@@ -1,6 +1,4 @@
-Device Photos	Specification / Configuration
-
-
+	
 	PSU: Silverstone Strider Gold 750W, modular, Active PFC, 80 PLUS Gold, SST-ST75F-GS v 3.0
 	Motherboard: ASUS Z490 ROG MAXIMUS XII HERO (WI-FI) Motherboard, Intel Z490, LGA 1200, ATX
 	CPU: Intel Comet Lake Processor, Core i9-10900K 3.7GHz 20MB, LGA1200, 125W (Box)
@@ -15,3 +13,4 @@ Device Photos	Specification / Configuration
 	Speakers: Dell A525 - Speaker system - for PC - 2.1-channel - 30 Watt (total)
 	
 	OS: Windows 10, Windows 11
+<img width="1567" height="654" alt="image" src="https://github.com/user-attachments/assets/654251b3-6f76-4f98-a8bc-13fb0759730b" />

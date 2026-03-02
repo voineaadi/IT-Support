@@ -1,0 +1,67 @@
+Ticket ID: MOB-INC-2026-02-IP16PM-01
+Title: iPhone 16 Pro Max – Incoming Call Screen Blackout Due to Accessibility Flash Alert Conflict (Resolved)
+Classification: Mobile Incident / Accessibility & Display Behavior
+Date: 06 February 2026 – 08 February 2026
+Status: Closed – Issue Resolved
+System Identification
+	• Device: iPhone 16 Pro Max
+	• Manufacturer: Apple Inc.
+	• Operating System: iOS (latest available version at the time)
+	• Location: Romania
+	• Usage: Primary personal and productivity device
+
+Executive Summary
+Incoming calls triggered abnormal device behavior: the rear LED flash activated, but the display failed to wake, preventing normal call handling. Diagnostics isolated the issue to a configuration-level software conflict between “LED Flash for Alerts” and screen flash alerts. Resolution involved adjusting accessibility settings, restoring reliable call interface functionality.
+
+1. Symptoms
+	• Rear LED activated during incoming calls, but screen remained black
+	• Call answer interface not visible
+	• Manual wake attempts (buttons, volume) unreliable
+	• Issue reproducible consistently with incoming calls
+	• Temporarily resolved if screen was already active
+
+2. Business Impact
+	• Inability to reliably answer incoming calls
+	• Risk of missed personal and professional communications
+	• Reduced trust in device reliability
+	• Increased operational friction in daily productivity
+
+3. Initial Diagnostics
+	• Verified display functionality outside call scenarios
+	• Tested hardware buttons and display wake behavior
+	• Reviewed and toggled accessibility settings:
+		○ Increased Contrast
+		○ Darken Display
+		○ Visual Accessibility enhancements
+	• Hardware failure ruled out
+	• Behavior isolated to notification and accessibility subsystem
+
+4. Root Cause
+	• Conflict between “LED Flash for Alerts” and screen flash alerts during incoming calls
+	• Simultaneous LED and display flash interfered with display wake process
+	• Configuration-level software behavior; not hardware or OS corruption
+
+5. Resolution Steps
+	1. Accessed Accessibility settings
+	2. Located LED Flash for Alerts configuration
+	3. Disabled conflicting flash alert settings affecting screen wake
+	4. Tested incoming calls under controlled conditions
+	5. Verified display wake and call interface functionality
+
+6. Post-Repair Validation
+	• Incoming calls consistently wake the display
+	• Call interface appears reliably
+	• Rear LED and display behavior normal
+	• No recurrence of blackout during calls
+	• Device stable for daily use
+
+7. Preventive Recommendations
+	• Avoid enabling multiple simultaneous visual alert accessibility features unless required
+	• Validate accessibility settings after device migration or OS updates
+	• Monitor device behavior following accessibility configuration changes
+	• Document non-default accessibility configurations for future troubleshooting
+
+Risk Level: Low
+System Status: Stable, Operational, Fully Functional
+Conclusion
+The iPhone 16 Pro Max is now fully stable for daily productivity and personal use. The screen blackout during incoming calls has been resolved, ensuring reliable call handling and restored device trust.

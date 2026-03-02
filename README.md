@@ -26,6 +26,11 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                    XX
 
 
 LinkedIn https://www.linkedin.com/in/adrian-florentin-voinea/
+
 YouTube https://www.youtube.com/voineaadi 
+
 Blogspot https://voineaadi.blogspot.com/
+
 GitHub https://github.com/voineaadi
+
+

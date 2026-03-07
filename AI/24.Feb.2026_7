@@ -1,0 +1,147 @@
+Ticket ID: AI-BIZ-2026-02-24-01
+Title: AI-Assisted Development Strategy for Romanian Investment Tax Tracker and Structured AI Workflow Methodology
+Classification: AI-Assisted Project Development / Financial Data Architecture / AI Usage Methodology
+Execution Date: 24 February 2026
+Status: Active
+
+Executive Summary
+This activity documents the use of multiple AI agents to support the design and development of a personal investment tracking system intended to calculate Romanian investment taxes and assist with fiscal reporting obligations.
+During the development process, the user conducted a practical evaluation of AI agent capabilities, reliability patterns, and hallucination risks when tasked with generating complex deliverables involving financial calculations and legal considerations.
+The results of this evaluation led to the development of a revised AI interaction methodology based on modular prompting, staged development, and systematic validation. The activity therefore served both as a technical project (investment tracker development) and as a structured case study on effective AI usage in complex analytical workflows.
+
+Project Objective
+The primary objective was to design a Romanian Investment Tax Master File, implemented as an Excel-based investment tracker capable of:
+	• calculating Romanian investment taxes correctly
+	• supporting multiple categories of investment income
+	• maintaining traceable calculations suitable for verification
+	• supporting long-term portfolio tracking across multiple years
+	• remaining modular and expandable as fiscal legislation evolves
+The system must also support manual verification of all calculations in order to ensure fiscal accuracy and audit readiness.
+
+AI-Assisted Development Context
+The development process relied on AI agents as analytical and documentation assistants. The user experimented with several agents in their free versions, including ChatGPT and Copilot, using them for:
+	• structuring project documentation
+	• organizing technical requirements
+	• refining design specifications
+	• assisting with spreadsheet architecture planning
+This process was also intended as a practical exercise in AI literacy, prompt engineering, and workflow optimization.
+
+Initial Development Approach
+The initial strategy involved asking AI agents to generate a complete investment tracking system in a single workflow.
+The requested deliverable included:
+	• multi-category investment tracking
+	• Romanian fiscal logic
+	• FIFO lot tracking
+	• foreign exchange conversion logic
+	• tax calculations across multiple income types
+	• CASS threshold calculations
+	• structured reporting for ANAF declarations
+While the agents were able to generate partially functional files, repeated attempts revealed reliability issues.
+
+Observed AI Behavior and Limitations
+During testing, several consistent patterns were observed.
+Both ChatGPT and Copilot demonstrated strong capabilities when producing long explanations or structured informational content. Examples of successful outputs included:
+	• language learning support
+	• health and supplement explanations
+	• learning plans for new skills
+	• general informational legal explanations
+However, reliability decreased significantly when the user requested highly complex outputs that required simultaneous execution of multiple tasks.
+The agents occasionally produced outputs that contained:
+	• missing calculation logic
+	• incomplete financial structures
+	• omitted legal considerations
+	• partially implemented features
+	• structural inconsistencies
+For example, several generated investment tracking files omitted critical elements such as:
+	• FIFO per lot tracking logic
+	• certain tax calculation conditions
+	• specific fiscal requirements
+In some cases, the generation process stopped prematurely or produced incomplete deliverables.
+
+Strategic Methodology Revision
+Based on these observations, the initial development strategy was abandoned and replaced with a modular AI interaction framework.
+The revised methodology focuses on reducing complexity per interaction and validating results incrementally.
+Key principles include:
+	• clearly defining the overall objective before development begins
+	• breaking complex tasks into small, manageable modules
+	• implementing one feature at a time
+	• validating each module before continuing development
+	• maintaining intermediate file versions for backup and comparison
+This modular approach significantly reduces hallucination risk and improves the reliability of AI-assisted outputs.
+
+Dual Development Strategy
+Two parallel approaches were defined for continuing the project.
+Approach 1 – Existing Chat Recovery
+The existing conversation containing the previous investment tracker attempts will be analyzed in order to determine whether the partially generated files can be salvaged and improved.
+This includes reviewing previous prompts and extracting useful elements that may still be valid.
+Approach 2 – Clean Development Environment
+A new AI conversation will be initiated with a fully redesigned prompting strategy.
+The new workflow will focus on:
+	• small incremental requests
+	• isolated module development
+	• strict validation before feature expansion
+	• continuous documentation of results
+Both approaches will be evaluated in order to determine the most reliable workflow.
+
+Investment Tracker Specification
+A comprehensive specification was developed defining the architecture of the Romanian Investment Tax Master File.
+The specification includes the following functional modules:
+	• settings configuration module
+	• foreign exchange management system
+	• stock transaction tracking
+	• dividend income tracking
+	• FIFO lot tracking engine
+	• Forex trading result reporting
+	• cryptocurrency transaction tracking
+	• royalties and miscellaneous income reporting
+	• loss carryforward engine with seven-year tracking
+	• tax calculation engine per income category
+	• CASS calculation module based on Romanian thresholds
+	• ANAF declaration summary output
+	• optional financial dashboard
+	• full documentation module explaining usage and logic
+The architecture is designed to maintain full transparency and traceability of calculations.
+
+Design Principles
+The system must follow several strict design principles.
+These include:
+	• transparent formulas with no hidden logic
+	• no circular references
+	• no unstable or volatile formulas
+	• no hidden macros unless explicitly approved
+	• clear modular spreadsheet structure
+	• manual override capability for complex inputs such as foreign exchange rates
+The file must also support future expansion and legislative updates.
+
+AI Usage Methodology
+The project also serves as a structured exercise in AI workflow optimization.
+The user deliberately experiments with multiple AI systems to better understand their capabilities and limitations.
+The operational AI interaction workflow now follows these steps:
+	1. Define the objective clearly.
+	2. Break the project into small functional modules.
+	3. Generate and validate one module at a time.
+	4. Save intermediate results.
+	5. Continue development only after verification.
+This methodology allows AI to be used as a controlled development assistant rather than an autonomous system builder.
+
+Future Activities
+The next stages of the project include:
+	• creating the new AI development chat
+	• implementing the specification module by module
+	• validating the generated Excel file at each stage
+	• testing the system with sample investment data
+	• documenting the entire process as a portfolio case study
+The project will continue to serve as both a financial data management tool and a practical AI workflow experiment.
+
+Outcome
+This activity resulted in:
+	• the design of a comprehensive investment tracker specification
+	• the identification of AI reliability limitations during complex tasks
+	• the development of a structured modular prompting methodology
+	• improved understanding of AI-assisted workflow design
+The resulting methodology significantly improves the reliability and usefulness of AI tools when applied to complex analytical projects.
+
+If you want, I can also help you create a very strong portfolio improvement:
+Turn this ticket into a "Case Study: AI-Assisted Financial Tool Development and Prompt Engineering Methodology", which reads even stronger for cybersecurity, IT governance, and technical analyst roles.
+
+From <https://chatgpt.com/c/699ded85-714c-8327-b64f-0de18620d643> 

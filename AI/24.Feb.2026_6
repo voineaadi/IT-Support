@@ -1,0 +1,50 @@
+Ticket ID: AI-OBS-2026-02-24-01
+Title: Observational Study on AI Agent Reliability and Hallucination Patterns During Complex File Generation
+Classification: AI Usage Analysis / Prompt Engineering Observations
+Execution Date: 24 February 2026
+Status: Completed
+Executive Summary
+This activity consisted of documenting observations related to the practical use of large language model assistants during complex tasks, specifically the generation of a legally sensitive financial document (Romanian investment tax tracking file). The objective was to analyze the behavior, limitations, and reliability patterns of AI agents when tasked with generating complex, multi-module outputs requiring legal compliance and technical precision.
+The observations gathered during this process led to the redesign of the AI interaction strategy in order to improve reliability and reduce hallucination risk.
+Context
+The user was attempting to generate a structured investment tracking file designed to support Romanian fiscal reporting requirements. Multiple AI interactions were performed using different agents and prompting strategies.
+During this process, the user observed recurring issues when requesting highly complex deliverables in a single prompt or conversation.
+Key Observations
+Both ChatGPT and Copilot demonstrate strong capabilities when producing long, structured explanations or educational content.
+Examples where the agents performed reliably include:
+	• vocabulary and grammar explanations for language learning
+	• explanations regarding health benefits of ingredients or supplements
+	• structured learning plans for acquiring new skills
+	• general informational legal explanations
+When prompts are clear and structured, both agents are able to produce satisfactory responses.
+However, reliability decreases significantly when tasks require the simultaneous execution of multiple complex operations.
+Observed Failure Patterns
+The agents showed increased hallucination or structural failures when the user attempted to request:
+	• research
+	• design
+	• legal interpretation
+	• file generation
+	• structured calculations
+within the same prompt or conversation.
+When these tasks were combined, the agents sometimes:
+	• omitted important requirements
+	• produced incomplete files
+	• forgot previously defined constraints
+	• generated partially correct outputs
+	• stopped mid-process
+A practical example was the attempt to generate a fully compliant Romanian tax tracking Excel file. While multiple versions were generated, each contained structural or fiscal inaccuracies such as:
+	• missing FIFO per lot logic
+	• incomplete tax logic
+	• omitted fiscal considerations
+Strategic Conclusion
+The original approach of requesting full complex deliverables in a single conversation was abandoned.
+The user developed a new methodology based on modular AI interaction.
+New AI Usage Strategy
+The improved approach includes:
+	1. Define the overall objective clearly.
+	2. Break the task into small modular requirements.
+	3. Implement each requirement in stages.
+	4. Validate each stage before continuing.
+	5. Save intermediate versions of files.
+	6. If necessary, continue development using different AI agents.
+This methodology significantly reduces hallucination risk and increases the reliability of AI-assisted work.

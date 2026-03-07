@@ -1,0 +1,34 @@
+Ticket ID: AI-BIZ-2026-02-24-02
+Title: Development Strategy for Personal Investment Tax Tracker Using Modular AI Prompting
+Classification: AI-Assisted Project Development / Financial Data Management
+Execution Date: 24 February 2026
+Status: In Progress
+Executive Summary
+This ticket documents the planning and development strategy for a personal investment tracking system designed to calculate Romanian investment taxes and support fiscal reporting.
+The objective of the project is to create a long-term Excel-based investment tracking file capable of accurately calculating taxes for multiple income categories while remaining transparent, traceable, and legally compliant.
+The development process relies on structured AI assistance combined with manual verification and staged development.
+Project Objective
+The investment tracker must support:
+	• Romanian tax calculation requirements
+	• long-term portfolio tracking
+	• audit-ready financial documentation
+	• manual verification of all calculations
+The system must remain modular and expandable.
+Development Methodology
+Based on previous observations regarding AI hallucination risk, the development process follows a strict staged workflow.
+Key principles include:
+	• one feature implemented at a time
+	• no complex multi-module prompts
+	• validation after each module
+	• transparent formulas and logic
+	• manual verification of all calculations
+AI is used primarily as a development assistant rather than an autonomous solution builder.
+Parallel Development Strategy
+Two separate AI interaction approaches are being tested simultaneously:
+Approach 1 – Recovery of the existing investment tracker conversation.
+The existing chat will be analyzed to determine whether the current file can still be salvaged and improved.
+Approach 2 – Creation of a completely new conversation.
+A new chat session will be started with a clean architecture and a revised prompting strategy based on lessons learned from previous attempts.
+Both approaches will be evaluated in order to determine the most stable and reliable workflow.
+Expected Outcome
+The final deliverable will be a fully documented investment tracking system capable of calculating Romanian investment taxes and supporting the preparation of fiscal declarations.

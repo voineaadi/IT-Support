@@ -1,0 +1,42 @@
+Ticket ID: AI-BIZ-2026-02-24-03
+Title: Specification Design for Romanian Investment Tax Master File
+Classification: Financial Data Architecture / AI-Assisted Specification Development
+Execution Date: 24 February 2026
+Status: Completed
+Executive Summary
+This activity consisted of designing a comprehensive specification document defining the architecture and requirements for a Romanian investment tax tracking system.
+The specification acts as the master blueprint for the development of an Excel file capable of managing multiple categories of investment income and calculating the corresponding fiscal obligations.
+Design Objectives
+The file must:
+	• calculate Romanian investment taxes accurately
+	• support multi-year portfolio tracking
+	• maintain transparent and traceable calculations
+	• remain modular and expandable
+	• support manual inputs where automation is impractical
+Architecture Overview
+The design includes the following modules:
+	• Settings configuration
+	• Foreign exchange handling
+	• Stock transaction tracking
+	• Dividend management
+	• FIFO lot tracking engine
+	• Forex trading results
+	• Cryptocurrency transaction module
+	• Royalties and miscellaneous income tracking
+	• Loss carryforward engine
+	• Tax calculation engine
+	• CASS calculation logic
+	• ANAF reporting summary
+	• Optional dashboard
+	• Documentation module
+Each module was specified with clear requirements, including input fields, calculation logic, and validation rules.
+Design Philosophy
+Key design principles include:
+	• transparency of calculations
+	• absence of hidden automation
+	• no unstable formulas
+	• no circular references
+	• clear documentation
+	• manual override capabilities where required
+Strategic Importance
+This specification serves as the foundation for the modular development of the investment tracking system and ensures that the project progresses in a controlled and verifiable manner.

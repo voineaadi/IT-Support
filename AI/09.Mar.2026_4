@@ -1,0 +1,181 @@
+Ticket ID: SEC-DEV-2026-03-09-03
+Title: Personal Threat Modeling Exercise – Evaluation of Realistic vs Theoretical Malware Scenarios
+Classification: Cybersecurity Risk Analysis / Threat Modeling / Personal Security Strategy
+Execution Date: 9 March 2026
+Status: Resolved
+
+Executive Summary
+
+This activity documents a structured threat modeling exercise conducted to evaluate potential malware and account compromise scenarios affecting a personal computing environment.
+
+The objective was to determine which attack vectors represent realistic risks and which scenarios are primarily theoretical or highly unlikely.
+
+The analysis examined multiple categories of threats including:
+
+credential theft
+
+keylogging malware
+
+session token hijacking
+
+malicious USB devices
+
+persistent firmware-level malware
+
+remote compromise without user interaction
+
+The exercise helped clarify the practical threat landscape and allowed the user to prioritize defenses based on realistic risk levels.
+
+Project Objective
+
+The goal of this activity was to build a practical threat model that answers several critical questions:
+
+How could an attacker realistically compromise the system?
+
+What defenses are already in place?
+
+Which threats are credible versus theoretical?
+
+What mitigation strategies should be prioritized?
+
+This approach ensures that security efforts focus on meaningful risk reduction rather than unlikely scenarios.
+
+Threat Categories Evaluated
+
+The following potential attack vectors were examined.
+
+Credential Theft
+
+Credential theft can occur through:
+
+phishing websites
+
+password reuse
+
+data breaches on third-party services
+
+Mitigation measures implemented include:
+
+password manager deployment
+
+unique passwords for each service
+
+two-factor authentication
+
+Residual risk is considered very low.
+
+Keylogging Malware
+
+Keyloggers capture keystrokes to steal credentials.
+
+Mitigation measures include:
+
+updated operating system
+
+active security software
+
+password manager autofill
+
+Because most credentials are no longer manually typed, exposure to keylogging attacks is significantly reduced.
+
+Residual risk is low.
+
+Session Token Hijacking
+
+Attackers could theoretically steal active session cookies from a compromised system.
+
+Mitigation strategies include:
+
+periodic session resets
+
+account password changes
+
+secure device usage
+
+Token theft generally requires existing malware, making this scenario less likely without prior compromise.
+
+Residual risk is low.
+
+Malicious USB Devices
+
+USB drives could theoretically contain malware capable of infecting connected systems.
+
+Mitigation steps included:
+
+full formatting of USB drives
+
+partition deletion and recreation
+
+cautious device usage
+
+Standard USB malware cannot survive these processes.
+
+Residual risk is very low.
+
+Firmware-Level Malware
+
+Firmware-level attacks involve malware embedded in device firmware such as:
+
+USB controller firmware
+
+motherboard firmware
+
+boot firmware
+
+These attacks typically require:
+
+physical device access
+
+specialized tools
+
+targeted espionage scenarios
+
+Such attacks are extremely rare in personal environments.
+
+Residual risk is extremely low.
+
+Remote Malware Installation
+
+The possibility of silent remote malware installation without user interaction was also evaluated.
+
+While rare vulnerabilities exist, successful exploitation normally requires:
+
+outdated software
+
+browser exploit chains
+
+malicious file execution
+
+Because the user's system is fully updated and hardened, this attack path is considered unlikely.
+
+Residual risk is low.
+
+Threat Model Conclusion
+
+The threat modeling exercise revealed that most catastrophic scenarios discussed in cybersecurity communities involve highly advanced attacks that are rarely used against individual users.
+
+Realistic threats tend to involve:
+
+phishing
+
+weak passwords
+
+credential reuse
+
+unsafe downloads
+
+These risks have been significantly reduced through the security measures implemented during the system hardening project.
+
+Outcome
+
+This activity resulted in a clear understanding of the personal threat landscape and confirmed that the current security architecture provides strong protection against realistic threats.
+
+The threat modeling process also reinforced the importance of prioritizing practical defenses rather than focusing on extremely unlikely attack scenarios.
+
+✅ With these three tickets together, your portfolio now shows:
+
+1️⃣ Security hardening project
+2️⃣ Credential architecture implementation
+3️⃣ Threat modeling analysis
+
+That combination looks very strong in a cybersecurity / IT / AI-assisted workflow portfolio.

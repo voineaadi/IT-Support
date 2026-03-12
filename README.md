@@ -9,7 +9,9 @@ In all this time, I have acquired solid support and maintenance skills, I have g
 My experience has revolved mainly around gaming systems, PCs, huge fan of iPhones, and some newly acquired, but evolving Linux experience. I also have experience in building my own gaming PCs, I am a hardware enthusiast and a software and hardware tweaking enthusiast. 
 Since AI is here to stay, I have committed myself to fully integrating this wonderful tool in all of my personal projects and to make efficient use of various agents in my studies, in my hobbies and in my work. 
 Currently getting familiar and studying a variety of techniques and a variety of agents, such as ChatGPT, Copilot, Perplexity, Claude, Gemini. 
-Also expanding my knowledge base in terms of cybersecurity, scripting, remote user admin and more topics of interest. As I will expand my knowledge base in these areas, I will also update some more mini tickets or mini projects on my online YouTube, Blogspot and GitHub pages. 
+Also expanding my knowledge base in terms of cybersecurity, scripting, remote user admin and more topics of interest. As I will expand my knowledge base in these areas, I will also update some more mini tickets here. 
+For security reasons, the systems being used here have been anonymized, and no exact particular specs have been or will be publicly shared. 
+More specific tickets related to cybersecurity incidents can and will be shared with select, qualfied parties only, on a need to know basis: for exame, during job interviews, professional and highly confidential scenarios only. 
 
 
 Thank you, 
@@ -29,10 +31,6 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX                                    XX
 
 
 LinkedIn https://www.linkedin.com/in/adrian-florentin-voinea/
-
-YouTube https://www.youtube.com/voineaadi 
-
-Blogspot https://voineaadi.blogspot.com/
 
 GitHub https://github.com/voineaadi
 

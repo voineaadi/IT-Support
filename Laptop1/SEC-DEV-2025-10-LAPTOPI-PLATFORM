@@ -1,0 +1,81 @@
+Ticket ID: SEC-DEV-2025-10-LAPTOPI-PLATFORM
+Title: Laptop I — Platform Management Software Recovery, Dependency Repair & Thermal Management Restoration
+Classification: Endpoint Software Remediation / Platform Stability / Performance & Thermal Management
+Status: Resolved – Stable Configuration
+Priority: High
+Affected Asset: Laptop I (High-Performance Laptop Workstation)
+Related Tickets: SYS-VAL-2026-02-LAPTOPI, SEC-DEV-2025-10-LAPTOPI-CLEANOS
+
+Executive Summary
+After a Windows 11 feature update and routine driver maintenance, the platform management software became unstable, causing partial loss of thermal, performance, and telemetry management.
+Root causes included:
+	• Windows servicing stack changes
+	• Driver dependency mismatches
+	• Residual legacy software components
+	• GPU driver telemetry conflicts
+	• Missing or outdated Microsoft runtime dependencies (.NET Framework & Visual C++)
+Resolution involved full removal of legacy platform management components, driver cleanup using DDU, OS component repair, runtime dependency restoration, and clean installation of the management software.
+System now operates with full stability, restored thermal/fan management, and predictable high-performance operation.
+Environment
+	• Device: Laptop I (High-Performance Laptop Workstation)
+	• Operating System: Windows 11 (Latest Version)
+	• Platform Management Software: Generic OEM Management Suite
+	• GPU Vendor: NVIDIA
+	• Location: Romania
+	• Usage Profile: Gaming / High-performance workloads / Thermal-sensitive applications
+Business Impact
+	• Severity: High
+	• Impacts:
+		○ Loss of fan/thermal profile control
+		○ Missing performance/overclocking profile functionality
+		○ Reduced temperature telemetry
+		○ Risk of thermal throttling and performance instability
+	• Operational Risks:
+		○ Hardware overheating
+		○ Reduced performance stability
+		○ System unpredictability under sustained load
+Root Cause Analysis
+	1. Windows Update Component Changes – Updated system components used by platform management software (WMI, runtime, hardware abstraction).
+	2. Legacy Component Residue – Leftover files and registry entries causing driver/service conflicts.
+	3. GPU Driver Telemetry Disruption – Required for temperature, performance, and overclocking monitoring; corrupted drivers caused failure.
+	4. Runtime Dependency Issues – Outdated or missing Microsoft Visual C++ Redistributables and .NET Framework.
+	5. Audio Stack Conflicts – Certain audio enhancement components interfering with software integration.
+Remediation Steps
+Phase 1 — Management Software Removal & Cleanup
+	• Removed software using uninstaller tool
+	• Cleared residual folders and registry entries
+	• Verified service removal via services.msc
+Phase 2 — Version Compatibility Testing
+	• Installed previous software version → partial functionality, incompatible
+	• Fully removed previous version
+Phase 3 — Windows Component Repair
+	• Reinstalled Windows Update servicing stack
+	• Installed latest .NET Framework updates
+Phase 4 — Runtime Dependency Repair
+	• Installed / repaired Visual C++ 2015–2022 Redistributables (x64 & x86)
+Phase 5 — GPU Driver Cleanup
+	• Removed NVIDIA drivers via DDU in Safe Mode
+	• Installed OEM-validated GPU drivers via NVCleanstall
+Phase 6 — Conflicting Audio Component Removal
+	• Removed all third-party audio enhancement software and services
+Phase 7 — Clean Management Software Installation
+	• Installed management suite primary & supporting packages in correct sequence
+	• Verified all services running (e.g., software service, client management service, monitoring service)
+Validation & Testing
+	• Management software launch successful, no crashes
+	• Thermal management fully functional (fan curves, temperature monitoring)
+	• Performance profiles and overclocking restored
+	• Application and gaming validation: stable FPS, stable thermals, no throttling
+	• Startup validation: software auto-load verified
+Final System State
+	• Status: Fully operational
+	• Restored Functionality: Fan control, thermal profiles, performance/overclocking, telemetry, performance modes, audio integration
+	• Performance Improvements: Improved thermal stability, FPS consistency, system predictability
+Preventive Recommendations
+	• Use only latest version of platform management software
+	• Install drivers only from verified OEM sources
+	• Maintain runtime dependencies (.NET Framework, Visual C++)
+	• Avoid conflicting third-party audio software
+	• Create restore points before major OS, driver, or platform software updates
+Conclusion
+Platform management software instability was resolved by addressing legacy software residue, runtime dependencies, GPU driver telemetry, and Windows servicing stack inconsistencies. Laptop I now operates under a stable, fully functional platform management environment with restored thermal and performance control.

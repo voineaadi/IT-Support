@@ -1,0 +1,167 @@
+Ticket ID: SYS-INC-2020-08-DESKTOPI-HARDWARE-STABILITY
+Title: Desktop I — Residential Power Instability Mitigation & UPS Deployment + Progressive Hardware Failure, PSU Root Cause, and System Stabilization
+Date: July–August 2017
+Classification: Infrastructure Risk Mitigation / Electrical Stability & Hardware Incident / PSU Failure / System Rebuild
+Status: Resolved
+Priority: Critical
+Affected Asset: Desktop I (Primary Desktop System), Home IT Infrastructure
+Related Tickets: N/A
+
+Executive Summary
+Desktop I experienced progressive instability characterized by freezing, black screens, and intermittent boot failures. Multiple components were replaced through a structured, stepwise troubleshooting process.
+After extensive hardware replacements and validation cycles, the root cause was identified as a failing Power Supply Unit (PSU), compounded by unstable residential mains voltage conditions.
+Repeated unexplained system freezes, hardware degradation, and instability across multiple configurations were ultimately correlated with inconsistent external power delivery.
+Following validation, a line-interactive UPS with Automatic Voltage Regulation (AVR) was deployed. Additionally, a dedicated voltage stabilizer and surge protection were implemented. Electrical sockets across the residence were upgraded with professional installation and verification.
+This combined infrastructure remediation fully eliminated the instability. Long-term system stability was achieved and sustained for years thereafter.
+Following PSU replacement and power infrastructure mitigation, the system operated in fully stable condition and was later reassigned (gifted) while fully functional. Since implementation, no recurrence of similar issues has been observed.
+
+Environment
+Original Platform Components:
+• CPU: High-performance quad-core processor
+• Motherboard: Standard ATX motherboard
+• UPS: Generic 1500VA / 900W Line-Interactive UPS with AVR
+Location: Residential property – Câmpina, Romania
+Systems Affected:
+• Desktop I
+Power Protection Deployed:
+• Generic 1500VA / 900W Line-Interactive UPS with AVR
+• Generic 2100VA / 1200W Network Stabilizer with Servo Motor, Pure Sine Wave
+
+Business Impact
+• Repeated system downtime
+• High financial impact
+• Productivity loss
+• Multiple service visits
+• Warranty claims and associated delays
+• Operational unpredictability
+Pre-Mitigation Risk Level: High
+• Random system freezes during active workloads
+• Forced hard shutdowns via power button
+• Hardware degradation (motherboard capacitor failure)
+• Financial loss due to repeated component replacement
+• Operational unreliability
+Post-Mitigation Outcome:
+• Complete system stability achieved
+• No further unexplained freezes
+• Infrastructure risk neutralized
+• Long-term operational reliability confirmed
+
+Symptoms Observed
+• Random full system freezes during use (no BSOD)
+• Black screen events
+• Hard system lock without recovery
+• Intermittent successful boot followed by instability
+• Increasing instability frequency over time
+• Burned motherboard capacitor (visible smoke)
+• Suspected CPU bending
+• POST inconsistencies and occasional failure to POST
+
+Root Cause Analysis
+Primary root cause identified as unstable residential mains voltage delivery.
+Contributing Factors:
+• Absence of surge protection
+• No voltage regulation
+• Direct wall-socket connection
+• Limitations of historical electrical installation
+Voltage fluctuations likely resulted in:
+• Capacitor damage
+• Motherboard degradation
+• PSU stress and internal instability
+• Random system state corruption
+
+Initial Diagnostics
+• System transported to local service provider
+• Hardware bench-tested
+• Service conclusion: “No hardware fault identified”
+• System returned and initially appeared stable
+• Instability resumed after short operational period
+• No electrical instability testing was performed at the service facility
+
+Troubleshooting Timeline
+Phase 1 — Initial Hardware Swap
+• Replaced motherboard
+• Replaced CPU
+• Replaced PSU
+• Tested components individually
+• Verified video output
+• Tested Desktop I using alternative display
+• Tested components inside alternative desktop configurations; all components validated as functional
+• System appeared temporarily stable; instability subsequently returned
+Phase 2 — Service Provider Evaluation
+• System transported to local IT service
+• Bench testing performed
+• No faults reproduced
+• System returned home
+• Instability resumed
+Phase 3 — Warranty & RMA
+• Submitted motherboard under warranty
+• Replacement issued by manufacturer
+• Hardware reinstalled per manufacturer specifications
+• BIOS configuration reviewed and initially left at default settings
+• System initially failed to boot; PSU instability later identified as contributing factor
+Phase 4 — PSU Root Cause Confirmation
+After systematic elimination of:
+• GPU
+• RAM
+• CPU
+• Motherboard
+Generic 750W, 80+ Gold Modular PSU identified as unstable under load conditions.
+Installed replacement PSU: Generic 730W, 80+.
+Simultaneously implemented:
+• UPS deployment
+• AVR implementation
+• Surge protector installation
+• Electrical infrastructure upgrade within workspace (wall sockets and electrical panel improvements)
+
+Financial Summary (August 2020)
+• High-performance CPU — 1000 RON
+• Quad-core CPU upgrade — 1000 RON
+• Previous motherboard — 800 RON
+• Replacement motherboard — 800 RON
+• Replacement PSU — 257 RON
+• UPS — 1220 RON
+• Network Stabilizer — 500 RON
+• Full residential socket upgrade — 1000 RON
+Total Technology Investment: 7277 RON
+
+Resolution Steps
+	1. Assessed residential electrical stability risk
+	2. Purchased and installed UPS with integrated AVR, surge protection, and external voltage stabilizer
+	3. Determined separate servo stabilizer not strictly required due to UPS AVR integration; however, retained as additional safety layer
+	4. Connected all desktop systems through upgraded sockets, surge protector, AVR, and UPS
+	5. Standardized use of high-quality power supplies only
+	6. Monitored system behavior under sustained load conditions
+
+Final Outcome
+• PSU replaced
+• UPS installed
+• AVR installed
+• Residential sockets upgraded (professional installation)
+• Dedicated surge protection deployed for sensitive IT equipment
+• Electrical instability mitigated
+• System stabilized
+• No further freezes observed
+• Long-term operational stability achieved
+• System later gifted in fully functional condition
+
+Result
+• Immediate system stabilization
+• Elimination of random freezing
+• No further component damage
+• Multi-year stable operation confirmed
+
+Lessons Learned
+• PSU degradation may manifest as random freezing without BSOD
+• Electrical instability can closely mimic hardware failure
+• Bench testing without real-world power conditions may not reproduce issues
+• Stepwise component replacement without infrastructure assessment significantly increases cost
+
+Preventive Recommendations
+• Always deploy AVR-enabled UPS for high-performance desktop systems
+• Validate electrical stability before replacing core components
+• Avoid assuming motherboard or CPU failure without PSU validation
+• Conduct extended load testing before declaring system stable
+• Operate all desktop systems behind AVR-enabled UPS
+• Modernize electrical infrastructure where necessary
+• Avoid direct wall-outlet operation for high-performance systems
+• Perform periodic UPS battery health verification
